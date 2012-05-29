@@ -28,8 +28,12 @@ public class AhoyPurge extends JavaPlugin
 		
 		if (cmd.getName().equalsIgnoreCase("purge"))
 		{
-			player.setFlying(true);
-			player.sendMessage("You ran a command. Fuck you.");
+			player.sendMessage("You ran a really good command.");
+			return true;
+		}
+		
+		if (cmd.getName().equalsIgnoreCase("blah"))
+		{
 			return true;
 		}
 		
