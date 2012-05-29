@@ -1,0 +1,10 @@
+name: AhoyPurge
+main: uk.co.ahoyworld.AhoyPurge
+version: 0.1crap
+
+commands:
+  purge:
+    description: This really annoys you.
+    usage: /purge
+    permission: ahoypurge.main
+    permission-message: Type /kill to activate.
