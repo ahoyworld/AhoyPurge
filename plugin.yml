@@ -3,8 +3,8 @@ main: uk.co.ahoyworld.AhoyPurge
 version: 0.1crap
 
 commands:
-  purge:
-    description: This really annoys you.
-    usage: /purge
-    permission: ahoypurge.main
-    permission-message: Type /kill to activate.
+  hide:
+    description: Turns the admin invisible.
+    usage: /hide or /show
+    permission: ahoypurge.hide
+    permission-message: Nothing to see here.
